@@ -99,6 +99,19 @@ body {
   font-size: 45px;
   font-weight: 700;
   line-height: 87px;
+
+  cursor: pointer;
+  text-shadow: 0 0 15px rgba(55, 31, 87, 0.562);
+  transition: all 0.5s;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+
+.name:hover {
+  text-shadow: -500px 0 rgba(255, 206, 206, 0.384),
+    500px 0 rgba(76, 48, 129, 0.233), 0 0 rgb(51, 16, 92);
 }
 
 .description {
